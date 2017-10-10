@@ -53,12 +53,14 @@ class Application(Frame):
             })
 
             e1.controller()
+            '''
             print "e1 instance: "
             print e1.rate
             print e1.weekly
             print e1.annual
             print e1.monthly
-
+            '''
+            
             rateOut = e1.rate
             weeklyOut = e1.weekly
             annualOut = e1.annual
